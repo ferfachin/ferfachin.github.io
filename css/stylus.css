@@ -17,17 +17,31 @@ body {
 
 /*Header Mobile*/
 
-.nav-mobile{
+.nav-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1em 4em 1em 4em;
 }
 
-.nav-mobile ul{
+.nav-mobile ul {
     display: flex;
 }
 
 .nav-mobile li {
     margin-left: 1em;
 }
+
+@media screen and (min-width:320px) and (max-width:1024px) {  
+    .nav-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .redes {
+        margin-left: 15em;
+    }
+}
+
+/*Finish header*/
