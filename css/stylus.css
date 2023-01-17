@@ -17,3 +17,17 @@ body {
 
 /*Header Mobile*/
 
+.nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-mobile ul{
+    display: flex;
+}
+
+.nav-mobile li {
+    margin-left: 1em;
+}
