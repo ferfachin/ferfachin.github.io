@@ -15,6 +15,10 @@ body {
     background-color: #FFEFE7;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /*Header Mobile*/
 
 .nav-mobile {
@@ -46,29 +50,94 @@ body {
 
 /*Finish header*/
 
-.about-me {
+/*About me*/
+
+.about-me--mobile {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3em;
+    padding: 2em;
     gap: 2em;
 }
 
-.about-me h1 {
+.about-me--mobile h1 {
     color: #000000;
     font-weight: 700;
     font-size: 36px;
 }
 
-.about-me h2 {
+.about-me--mobile h2 {
     color: #000000;
     font-weight: 400;
     font-size: 36px;
 }
 
-.about-me--text{
+.about-me--text--mobile {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+}
+
+.about-me--apresentacao {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding: 3em 1.5em 3em 1.5em;
+}
+
+.about-me--info {
+    display: flex;
+    align-items: center;
+    padding: 3em;
+}
+
+.about-me--box1 {
+    width: 100%;
+}
+
+.about-me--text {
+    gap: 1.5em;
+}
+
+.about-me--box1 p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.about-me--box3 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 0;
+}
+
+.about-me--box2 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.about-me--box2 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+@media screen and (min-width:320px) and (max-width:960px) {
+    .about-me--desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about-me--mobile {
+        display: none;
+    }
 }
