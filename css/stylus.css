@@ -161,6 +161,24 @@ body {
     .about-me--mobile {
         display: none;
     }
+
+    .about-me--apresentacao {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .about-me--box2{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .about-me--box3{
+        width: 80%;
+    }
+
+    .about-me--text {
+        padding: 0;
+    }
 }
 
 /* Finish About me*/
