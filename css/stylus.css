@@ -40,7 +40,16 @@ body {
     .nav-desktop {
         display: none;
     }
-    .card--desktop{
+
+    .card--desktop {
+        display: none;
+    }
+
+    .card-box1--desktop {
+        display: none;
+    }
+
+    .card-box2--desktop {
         display: none;
     }
 }
