@@ -1,265 +1,266 @@
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
-        *,
-        html {
-            font-family: 'Inter', sans-serif;
-            margin: 0 auto;
-            padding: 0;
-            box-sizing: border-box;
-            border: none;
-            scroll-behavior: smooth;
-        }
+*,
+html {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    scroll-behavior: smooth;
+}
 
-        body {
-            width: 100%;
-            background-color: #FFFFFF;
-        }
+body {
+    width: 100%;
+    background-color: #FFFFFF;
+}
 
-        a:hover {
-            transition: 0.5s;
-            text-decoration: underline;
-        }
+a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
 
-        .bold {
-            font-weight: bold;
-        }
+.bold {
+    font-weight: bold;
+}
 
-        /*Header Mobile*/
+/*Header Mobile*/
 
-        .nav-mobile {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1em 2em 1em 2em;
-        }
+.nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em 1em 2em;
+}
 
-        .nav-mobile ul {
-            display: flex;
-        }
+.nav-mobile ul {
+    display: flex;
+}
 
-        .nav-mobile li {
-            margin-left: 1em;
-        }
+.nav-mobile li {
+    margin-left: 1em;
+}
 
-        @media screen and (min-width:320px) and (max-width:1024px) {
-            .nav-desktop {
-                display: none;
-            }
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .nav-desktop {
+        display: none;
+    }
 
-            .card--desktop {
-                display: none;
-            }
+    .card--desktop {
+        display: none;
+    }
 
-            .card-box1--desktop {
-                display: none;
-            }
+    .card-box1--desktop {
+        display: none;
+    }
 
-            .card-box2--desktop {
-                display: none;
-            }
-        }
+    .card-box2--desktop {
+        display: none;
+    }
+}
 
-        @media screen and (min-width:1024px) {
-            .redes {
-                margin-left: 15em;
-            }
-        }
+@media screen and (min-width:1024px) {
+    .redes {
+        margin-left: 15em;
+    }
+}
 
-        /*Finish header*/
+/*Finish header*/
 
-        /*About me*/
+/*About me*/
 
-        .about-me--mobile {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 2em;
-        }
+.about-me--mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
 
 
-        .about-me--text {
-            padding-top: 2em;
-        }
+.about-me--text {
+    padding-top: 2em;
+}
 
-        .about-me--mobile img {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-        }
+.about-me--mobile img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
 
-        .about-me--mobile h1 {
-            color: #000000;
-            font-weight: 700;
-            font-size: 36px;
-        }
+.about-me--mobile h1 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
 
-        .about-me--mobile h2 {
-            color: #000000;
-            font-weight: 400;
-            font-size: 36px;
-        }
+.about-me--mobile h2 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+}
 
-        .about-me--text--mobile {
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 22px;
-            color: #000000;
-        }
+.about-me--text--mobile {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
 
-        .about-me--apresentacao {
-            display: flex;
-            justify-content: flex-start;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 44px;
-            color: #000000;
-            padding: 3em 1.5em 3em 1.5em;
-        }
+.about-me--apresentacao {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding: 3em 1.5em 3em 1.5em;
+}
 
-        .about-me--info {
-            display: flex;
-            align-items: center;
-            padding: 3em;
-        }
+.about-me--info {
+    display: flex;
+    align-items: center;
+    padding: 3em;
+}
 
-        .about-me--box1 {
-            width: 100%;
-        }
+.about-me--box1 {
+    width: 100%;
+}
 
-        .about-me--text {
-            gap: 1.5em;
-        }
+.about-me--text {
+    gap: 1.5em;
+}
 
-        .about-me--box1 p {
-            font-weight: 400;
-            font-size: 20px;
-            color: #000000;
-        }
+.about-me--box1 p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
 
-        .about-me--box3 {
-            width: 50vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 2em;
-            padding: 2em 0;
-        }
+.about-me--box3 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 0;
+}
 
-        .about-me--box2 h1 {
-            font-weight: 700;
-            font-size: 36px;
-            color: #000000;
-        }
+.about-me--box2 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
 
-        .about-me--box2 h2 {
-            font-weight: 400;
-            font-size: 36px;
-            color: #000000;
-        }
+.about-me--box2 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
 
-        @media screen and (min-width:320px) and (max-width:960px) {
-            .about-me--desktop {
-                display: none;
-            }
-        }
+@media screen and (min-width:320px) and (max-width:960px) {
+    .about-me--desktop {
+        display: none;
+    }
+}
 
-        @media screen and (min-width:1024px) {
-            .about-me--mobile {
-                display: none;
-            }
+@media screen and (min-width:1024px) {
+    .about-me--mobile {
+        display: none;
+    }
 
-            .about-me--apresentacao {
-                margin-left: 4rem;
-                margin-right: 4rem;
-            }
+    .about-me--apresentacao {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
 
-            .about-me--box2 {
-                padding-left: 4em;
-                padding-right: 4em;
-            }
+    .about-me--box2 {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
 
-            .about-me--box3 {
-                width: 80%;
-            }
+    .about-me--box3 {
+        width: 80%;
+    }
 
-            .about-me--text {
-                padding: 0;
-            }
-        }
+    .about-me--text {
+        padding: 0;
+    }
+}
 
-        /* Finish About me*/
+/* Finish About me*/
 
-        /*Projetos*/
+/*Projetos*/
 
-        .titulo {
-            display: flex;
-            justify-content: center;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 39px;
-            text-align: center;
-            color: #000000;
-            padding-top: 2em;
-        }
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    padding-top: 2em;
+}
 
-        .card-box1--mobile {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 3em;
-            padding-top: 3em;
-        }
+.card-box1--mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding-top: 3em;
+}
 
-        .card--mobile h1 {
-            font-weight: 500;
-            font-size: 24px;
-            text-align: center;
-            color: #000000;
-            margin-bottom: 0.5em;
-        }
+.card--mobile h1 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
 
-        @media screen and (min-width:320px) and (max-width:1023px) {
-            .card-desktop {
-                display: none;
-            }
-        }
+@media screen and (min-width:320px) and (max-width:1023px) {
+    .card-desktop {
+        display: none;
+    }
+}
 
-        @media screen and (min-width:1024px) {
-            .card-box1--mobile {
-                display: none;
-            }
+@media screen and (min-width:1024px) {
+    .card-box1--mobile {
+        display: none;
+    }
 
-            .titulo {
-                font-size: 64px;
-            }
+    .titulo {
+        font-size: 64px;
+    }
 
-            .card-box1--desktop {
-                display: flex;
-                justify-content: center;
-                gap: 2em;
-                padding: 6em 2em;
-            }
+    .card-box1--desktop {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+        padding: 6em 2em;
+    }
 
-            .card-box2--desktop {
-                display: flex;
-                justify-content: center;
-                gap: 2em;
-                padding: 2em 0em 2em 0em;
-            }
+    .card-box2--desktop {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+        padding: 2em 0em 2em 0em;
+    }
 
-            .card-box1--desktop h1 {
-                font-weight: 500;
-                font-size: 24px;
-                color: #000000;
-            }
+    .card-box1--desktop h1 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #000000;
+    }
 
-            .card-box2--desktop h1 {
-                font-weight: 500;
-                font-size: 24px;
-                color: #000000;
-            }
-        }
+    .card-box2--desktop h1 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #000000;
+    }
 
-        /*Finish Projects*/
+}
+
+/*Finish Projects*/
