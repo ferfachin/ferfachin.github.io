@@ -26,6 +26,12 @@ a:hover {
 
 /*Header Mobile*/
 
+.redes-anin:hover {
+    transition: 0.8s;
+    scale: 1.5;
+}
+
+
 .nav-mobile {
     display: flex;
     justify-content: space-between;
