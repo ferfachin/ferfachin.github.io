@@ -197,6 +197,17 @@ a:hover {
 
 /*Projetos*/
 
+.card--desktop img {
+    width: 373px;
+    height: 180px;
+}
+
+.card--desktop {
+    width: 373px;
+    height: 180px;
+}
+
+
 .card--desktop:hover{
     transition: 1s;
     scale: 1.1;
@@ -221,6 +232,16 @@ a:hover {
     align-items: center;
     gap: 3em;
     padding-top: 3em;
+}
+
+.card--mobile {
+    width: 309px;
+    height: 150px;
+}
+
+.card--mobile img {
+    width: 309px;
+    height: 150px;
 }
 
 .card--mobile h1 {
